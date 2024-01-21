@@ -3,6 +3,8 @@ package herencias;
 public class HoraExacta extends Hora {
 	int segundo;
 
+	/*Le añadimos segundos a la hora.*/
+
 	HoraExacta(int hora, int minuto, int segundo) {
 		super(hora, minuto);
 		this.segundo = segundo;
